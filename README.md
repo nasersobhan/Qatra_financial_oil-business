@@ -1,4 +1,4 @@
-# Qatra_financial_oil-business
+# Qatra a financial System for oil-trading businesses - Afghansitan Specialized 
 A complete Financial system for Oil Trading business - Afghanistan
 
 
