@@ -11,6 +11,8 @@ Demo http://qd.sobhansoft.com/
 * Multi warehouse
 * Multi user with Different Access levels
 * Mutli View
+* Auto Complete and Suggestion Forms
+* Shamsi and Miladi Dates
 * Ooyta ODE
 
 
