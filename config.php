@@ -1,5 +1,4 @@
 <?php
-set_time_limit (0);
 //URis
 define("RHOME", dirname(__FILE__) . DIRECTORY_SEPARATOR);
 define('HOME', 'http://localhost/products/qatra/'); // Public URL For Core
@@ -14,7 +13,7 @@ define('ENVIRONMENT', 'development');
 define('AUTO_MINIFY', TRUE);
 
 //Defulte Values
-define('DEF_PGDESC', 'Ooya Discription');
+define('DEF_PGDESC', 'Des');
 define('DEF_PGKEYWORD', 'keywords,for,ooyta');
 define("DEF_IMG", COREHOME . "oy_core/oy_theme/def/images/def/404-img.gif");
 define("DEF_AVTAR", HOME . "uploads/def/avatar.png");
@@ -23,10 +22,8 @@ define("DEF_COVER", HOME . "uploads/def/avatar.png");
 //SECURITY Configurations
 define("HASH_COST_FACTOR", "10");
 define("COOKIE_RUNTIME", 1209600);
-define("COOKIE_DOMAIN", ".shamal.com");
-ini_set('session.cookie_domain', '.ooyta.com');
-session_set_cookie_params(0, '/', '.ooyta.com');
-//  session.cookie_domain = ".ooyta.com";
+define("COOKIE_DOMAIN", ".domain.com");
+
 define("COOKIE_SECRET_KEY", "1gp@TMPS{+$78sfpMJFe-92s");
 
 //define('PUBLIC_FILES_PATH',DATA_CORE_PATH.'/upload/');
@@ -41,7 +38,7 @@ define('AUTOLOADER', TRUE);
 $autoloader = AUTOLOADER;
 //$user_arr = array("TYPE"=>"CUSTOM", "USER_TBL"=>"","USER_TBL"=>"","USER_TBL"=>"","USER_TBL"=>"","USER_TBL"=>"","USER_TBL"=>"","USER_TBL"=>"","USER_TBL"=>"","USER_TBL"=>"",);
 define('HAS_DB', TRUE);
-$constring = "localhost:qatra:root:";
+$constring = "dbhostname:dbname:dbuser:dbpassword";
 define('TYPE_DB', 'MYSQL'); //MYSQL, SQLITE, MSSQL
 define('STR_DB', $constring);
 define('TBL_PIX', 'sob_');
