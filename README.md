@@ -13,6 +13,7 @@ Demo http://qd.sobhansoft.com/
 * Mutli View
 * Auto Complete and Suggestion Forms
 * Shamsi and Miladi Dates
+* More than 50 Reports
 * Ooyta ODE
 
 
